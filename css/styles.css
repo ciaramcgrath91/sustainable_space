@@ -3998,17 +3998,17 @@ input[type="button"].btn--primary:focus {
 }
 
 /* ------------------------------------------------------------------- 
- * ## portfolio surround
+ * ## portfolio sustain
  * ------------------------------------------------------------------- */
 
-.folio-item__surround {
+.folio-item__sustain {
     display: block;
     background-color: white;
     position: relative;
     overflow: hidden;
 }
 
-.folio-item__surround::before {
+.folio-item__sustain::before {
     z-index: 1;
     content: "";
     display: block;
@@ -4026,12 +4026,12 @@ input[type="button"].btn--primary:focus {
     transition: all, .5s;
 }
 
-.folio-item__surround::after {
+.folio-item__sustain::after {
     z-index: 1;
-    content: "SURROUND";
-    font-family: var(--font-2);
+    content: "Holistic Space Sustainability";
+    font-family: var(--font-1);
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     display: block;
     height: 32px;
@@ -4039,7 +4039,7 @@ input[type="button"].btn--primary:focus {
     line-height: 32px;
     margin-left: -16px;
     margin-top: -16px;
-    text-align: left;
+    text-align: center;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0.5);
@@ -4048,41 +4048,41 @@ input[type="button"].btn--primary:focus {
     transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     position: absolute;
     left: 20%;
-    top: 20%;
+    top: 40%;
 }
 
-/* on hover surround
+/* on hover sustain
  *---------------------------------------------- */
-.folio-item:hover .folio-item__surround::before {
+.folio-item:hover .folio-item__sustain::before {
     opacity: 1;
     visibility: visible;
 }
 
-.folio-item:hover .folio-item__surround::after {
+.folio-item:hover .folio-item__sustain::after {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
-.folio-item:hover .folio-item__surround img {
+.folio-item:hover .folio-item__sustain img {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
 
 
 /* ------------------------------------------------------------------- 
- * ## portfolio safe passage
+ * ## portfolio astro
  * ------------------------------------------------------------------- */
 
- .folio-item__safe {
+ .folio-item__astro {
     display: block;
     background-color: white;
     position: relative;
     overflow: hidden;
 }
 
-.folio-item__safe::before {
+.folio-item__astro::before {
     z-index: 1;
     content: "";
     display: block;
@@ -4100,12 +4100,12 @@ input[type="button"].btn--primary:focus {
     transition: all, .5s;
 }
 
-.folio-item__safe::after {
+.folio-item__astro::after {
     z-index: 1;
-    content: "Safe Passage";
-    font-family: var(--font-2);
+    content: "Astrodynamics & Trajectory Design";
+    font-family: var(--font-1);
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     display: block;
     height: 32px;
@@ -4113,7 +4113,7 @@ input[type="button"].btn--primary:focus {
     line-height: 32px;
     margin-left: -16px;
     margin-top: -16px;
-    text-align: left;
+    text-align: center;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0.5);
@@ -4122,41 +4122,41 @@ input[type="button"].btn--primary:focus {
     transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     position: absolute;
     left: 20%;
-    top: 20%;
+    top: 40%;
 }
 
-/* on hover safe passage
+/* on hover astro
  *---------------------------------------------- */
-.folio-item:hover .folio-item__safe::before {
+.folio-item:hover .folio-item__astro::before {
     opacity: 1;
     visibility: visible;
 }
 
-.folio-item:hover .folio-item__safe::after {
+.folio-item:hover .folio-item__astro::after {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
-.folio-item:hover .folio-item__safe img {
+.folio-item:hover .folio-item__astro img {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
 
 
 /* ------------------------------------------------------------------- 
- * ## portfolio glamis
+ * ## portfolio mission
  * ------------------------------------------------------------------- */
 
- .folio-item__glamis {
+ .folio-item__mission {
     display: block;
     background-color: white;
     position: relative;
     overflow: hidden;
 }
 
-.folio-item__glamis::before {
+.folio-item__mission::before {
     z-index: 1;
     content: "";
     display: block;
@@ -4174,12 +4174,12 @@ input[type="button"].btn--primary:focus {
     transition: all, .5s;
 }
 
-.folio-item__glamis::after {
+.folio-item__mission::after {
     z-index: 1;
-    content: "GLAMIS";
-    font-family: var(--font-2);
+    content: "Mission Analysis & Design";
+    font-family: var(--font-1);
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     display: block;
     height: 32px;
@@ -4187,7 +4187,7 @@ input[type="button"].btn--primary:focus {
     line-height: 32px;
     margin-left: -16px;
     margin-top: -16px;
-    text-align: left;
+    text-align: center;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0.5);
@@ -4196,41 +4196,41 @@ input[type="button"].btn--primary:focus {
     transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     position: absolute;
     left: 20%;
-    top: 20%;
+    top: 40%;
 }
 
 /* on hover glamis
  *---------------------------------------------- */
-.folio-item:hover .folio-item__glamis::before {
+.folio-item:hover .folio-item__mission::before {
     opacity: 1;
     visibility: visible;
 }
 
-.folio-item:hover .folio-item__glamis::after {
+.folio-item:hover .folio-item__mission::after {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
-.folio-item:hover .folio-item__glamis img {
+.folio-item:hover .folio-item__mission img {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
 
 
 /* ------------------------------------------------------------------- 
- * ## portfolio arch
+ * ## portfolio data
  * ------------------------------------------------------------------- */
 
- .folio-item__arch {
+ .folio-item__data {
     display: block;
     background-color: white;
     position: relative;
     overflow: hidden;
 }
 
-.folio-item__arch::before {
+.folio-item__data::before {
     z-index: 1;
     content: "";
     display: block;
@@ -4248,12 +4248,12 @@ input[type="button"].btn--primary:focus {
     transition: all, .5s;
 }
 
-.folio-item__arch::after {
+.folio-item__data::after {
     z-index: 1;
-    content: "SCARA";
-    font-family: var(--font-2);
+    content: "Space Data Applications";
+    font-family: var(--font-1);
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     display: block;
     height: 32px;
@@ -4261,7 +4261,7 @@ input[type="button"].btn--primary:focus {
     line-height: 32px;
     margin-left: -16px;
     margin-top: -16px;
-    text-align: left;
+    text-align: center;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0.5);
@@ -4270,24 +4270,24 @@ input[type="button"].btn--primary:focus {
     transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     position: absolute;
     left: 20%;
-    top: 20%;
+    top: 40%;
 }
 
 /* on hover arch
  *---------------------------------------------- */
-.folio-item:hover .folio-item__arch::before {
+.folio-item:hover .folio-item__data::before {
     opacity: 1;
     visibility: visible;
 }
 
-.folio-item:hover .folio-item__arch::after {
+.folio-item:hover .folio-item__data::after {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
-.folio-item:hover .folio-item__arch img {
+.folio-item:hover .folio-item__data img {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
